@@ -1,0 +1,62 @@
+{
+  "lnkSignIn": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "mnuMenCategory": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "mnuAccount": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@text = 'Account']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//*[@class='naviLevel' and text()='My Account']",
+    "DESKTOP": "locator=value"
+  },
+  "mnuAddress": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@text = 'Address']",
+    "NATIVE_IOS": "accessibility_id=Address",
+    "MOBILE_WEB": "xpath=//span[text()='Addresses']",
+    "DESKTOP": "locator=value"
+  },
+  "btnLogOut": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@text=' LOG OUT ']",
+    "NATIVE_IOS": "xpath=(//XCUIElementTypeOther[@name='LOG OUT'])[1]",
+    "MOBILE_WEB": "xpath=//button[text()='Logout']",
+    "DESKTOP": "locator=value"
+  },
+  "mnuHamburger": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "mnuMyOrders": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "lblUserName": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "lblEditProfile": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "lnkSavedCards": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  }
+}

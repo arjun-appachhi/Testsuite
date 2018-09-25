@@ -1,0 +1,8 @@
+{
+  "txtReturnToMerchantSite": {
+    "NATIVE_ANDROID": "xpath=//input[@value='Return To the Merchant Site']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//input[@value='Return To the Merchant Site']",
+    "DESKTOP": "xpath=//input[@value='Return To the Merchant Site']"
+  }
+}

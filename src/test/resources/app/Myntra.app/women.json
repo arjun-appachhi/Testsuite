@@ -1,0 +1,341 @@
+{
+  "type": "layout",
+  "props": {
+    "title": "Shop Women's"
+  },
+  "children": [
+    {
+      "type": "carousel",
+      "props": null,
+      "children": [
+        {
+          "type": "banner",
+          "props": {
+            "src": "http://myntra.myntassets.com/images/banners/may2014/1399458399-women_clothing_anouk.jpg",
+            "url": "/anouk",
+            "title": "ANOUK",
+            "description": "ETHNIC WEAR"
+          }
+        },
+        {
+          "type": "banner",
+          "props": {
+            "src": "http://myntra.myntassets.com/images/banners/may2014/1399458417-women_clothing_dress-berry.jpg",
+            "url": "/dressberry",
+            "title": "DRESSBERRY",
+            "description": "DRESSES, TOPS & MORE"
+          }
+        },
+        {
+          "type": "banner",
+          "props": {
+            "src": "http://myntra.myntassets.com/images/banners/may2014/1399461051-women_acce_fossil_mini.jpg",
+            "url": "/fossil-women",
+            "title": "FOSSIL",
+            "description": "WATCHES"
+          }
+        },
+        {
+          "type": "banner",
+          "props": {
+            "src": "http://myntra.myntassets.com/images/banners/may2014/1399458756-women_footwear_cl_mini.jpg",
+            "url": "/carlton-london-women",
+            "title": "HAPPY FEET",
+            "description": "CARLTON LONDON"
+          }
+        },
+        {
+          "type": "banner",
+          "props": {
+            "src": "http://myntra.myntassets.com/images/banners/may2014/1399458446-women_footwear_sm_mini.jpg",
+            "url": "/steve-madden-women-footwear",
+            "title": "STEVE MADDEN",
+            "description": "MUST-HAVE SPRING STYLES"
+          }
+        },
+        {
+          "type": "banner",
+          "props": {
+            "src": "http://myntra.myntassets.com/images/banners/may2014/1399461089-women_acce_hidesign_mini.jpg",
+            "url": "/hidesign-women",
+            "title": "BAGS & WALLETS",
+            "description": "HIDESIGN"
+          }
+        }
+      ]
+    },
+    {
+      "type": "drawer",
+      "props": {
+        "src": "http://myntra.myntassets.com/myx/images/women-topwear.02775cf21e26cb5112322442ecc94746e2ec6af2.png",
+        "title": "Topwear"
+      },
+      "children": [
+        {
+          "type": "navi",
+          "props": {
+            "title": "Shirts, Tops & Tees",
+            "url": "/women-shirts-shops-tees"
+          }
+        },
+        {
+          "type": "navi",
+          "props": {
+            "title": "Dresses",
+            "url": "/women-dresses"
+          }
+        },
+        {
+          "type": "navi",
+          "props": {
+            "title": "Salwars & Churidars",
+            "url": "/women-salwars-churidars"
+          }
+        },
+        {
+          "type": "navi",
+          "props": {
+            "title": "Shrugs & Jackets",
+            "url": "/women-shrugs-jackets"
+          }
+        },
+        {
+          "type": "navi",
+          "props": {
+            "title": "Kurtas, Kurtis & Suits",
+            "url": "/women-kurtas-kurtis-suits"
+          }
+        },
+        {
+          "type": "navi",
+          "props": {
+            "title": "Sarees",
+            "url": "/women-sarees"
+          }
+        },
+        {
+          "type": "navi",
+          "props": {
+            "title": "Ethnic Wear",
+            "url": "/women-ethnic-wear"
+          }
+        },
+        {
+          "type": "navi",
+          "props": {
+            "title": "Winterwear",
+            "url": "/women-winterwear"
+          }
+        },
+        {
+          "type": "navi",
+          "props": {
+            "title": "Gym & Sportswear",
+            "url": "/women-sports"
+          }
+        }
+      ]
+    },
+    {
+      "type": "drawer",
+      "props": {
+        "src": "http://myntra.myntassets.com/myx/images/women-bottomwear.1bab9ebc2cc49880876f0a6fb98c0101d4fbc188.png",
+        "title": "Bottomwear"
+      },
+      "children": [
+        {
+          "type": "navi",
+          "props": {
+            "title": "Capris",
+            "url": "/women-capris"
+          }
+        },
+        {
+          "type": "navi",
+          "props": {
+            "title": "Jeans",
+            "url": "/women-jeans"
+          }
+        },
+        {
+          "type": "navi",
+          "props": {
+            "title": "Jeggings",
+            "url": "/women-jeggings"
+          }
+        },
+        {
+          "type": "navi",
+          "props": {
+            "title": "Shorts & Skirts",
+            "url": "/women-shorts-skirts"
+          }
+        },
+        {
+          "type": "navi",
+          "props": {
+            "title": "Trousers",
+            "url": "/women-trousers"
+          }
+        }
+      ]
+    },
+    {
+      "type": "drawer",
+      "props": {
+        "src": "http://myntra.myntassets.com/myx/images/women-footwear.88434431386010e24b70f03c4869d393d8242880.png",
+        "title": "Footwear"
+      },
+      "children": [
+        {
+          "type": "navi",
+          "props": {
+            "title": "Sandals",
+            "url": "/women-sandles"
+          }
+        },
+        {
+          "type": "navi",
+          "props": {
+            "title": "Wedges",
+            "url": "/women-sandals-wedges"
+          }
+        },
+        {
+          "type": "navi",
+          "props": {
+            "title": "All Heels",
+            "url": "/women-sandals-heels"
+          }
+        },
+        {
+          "type": "navi",
+          "props": {
+            "title": "Flats & Ballets",
+            "url": "/women-sandals-flats"
+          }
+        },
+        {
+          "type": "navi",
+          "props": {
+            "title": "Slippers and Flip Flops",
+            "url": "/women-slippers-flip-flops"
+          }
+        },
+        {
+          "type": "navi",
+          "props": {
+            "title": "Casual Shoes",
+            "url": "/women-casual-shoes"
+          }
+        },
+        {
+          "type": "navi",
+          "props": {
+            "title": "Sports Shoes",
+            "url": "/women-sports-shoes"
+          }
+        },
+        {
+          "type": "navi",
+          "props": {
+            "title": "Boots",
+            "url": "/women-boots"
+          }
+        },
+        {
+          "type": "navi",
+          "props": {
+            "title": "Socks",
+            "url": "/women-socks"
+          }
+        }
+      ]
+    },
+    {
+      "type": "drawer",
+      "props": {
+        "src": "http://myntra.myntassets.com/myx/images/women-accessories.681bf7c16015a5bd576489954dd73978a7df07a5.png",
+        "title": "Accessories"
+      },
+      "children": [
+        {
+          "type": "navi",
+          "props": {
+            "title": "Bags & Wallets",
+            "url": "/women-bags-wallets"
+          }
+        },
+        {
+          "type": "navi",
+          "props": {
+            "title": "Cosmetics & Perfumes",
+            "url": "/women-cosmetics-perfumes"
+          }
+        },
+        {
+          "type": "navi",
+          "props": {
+            "title": "Jewellery",
+            "url": "/women-jewellery"
+          }
+        },
+        {
+          "type": "navi",
+          "props": {
+            "title": "Sunglasses",
+            "url": "/women-sunglasses"
+          }
+        },
+        {
+          "type": "navi",
+          "props": {
+            "title": "Watches",
+            "url": "/women-watches"
+          }
+        }
+      ]
+    },
+    {
+      "type": "brands",
+      "props": null,
+      "children": [
+        {
+          "type": "image",
+          "props": {
+            "url": "/catwalk-women-footwear",
+            "src": "http://myntra.myntassets.com/images/filters/CATWALK_brand_logo.jpg"
+          }
+        },
+        {
+          "type": "image",
+          "props": {
+            "url": "/nike-women-footwear",
+            "src": "http://myntra.myntassets.com/images/filters/NIKE_brand_logo.jpg"
+          }
+        },
+        {
+          "type": "image",
+          "props": {
+            "url": "/steve-madden-women-footwear",
+            "src": "http://myntra.myntassets.com/images/filters/Steve-Madden-logo_2_120X70.jpg"
+          }
+        },
+        {
+          "type": "image",
+          "props": {
+            "url": "/puma-women-footwear",
+            "src": "http://myntra.myntassets.com/images/filters/PUMA_brand_logo.jpg"
+          }
+        },
+        {
+          "type": "image",
+          "props": {
+            "url": "/carlton-london-women-footwear",
+            "src": "http://myntra.myntassets.com/images/filters/CARLTON-LONDON.jpg"
+          }
+        }
+      ]
+    }
+  ]
+}

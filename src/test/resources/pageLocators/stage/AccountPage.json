@@ -1,0 +1,32 @@
+{
+  "lnkUserName": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@index='3']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "mnuOrders": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@text='Orders']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//a[contains(text(),'My Orders') and @class='naviLevel']",
+    "DESKTOP": "locator=value"
+  },
+  "mnuAddress": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@text='Address']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "lnkMyntraUser": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@index='3']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "btnLogOut": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@text=' LOG OUT ']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  }
+}

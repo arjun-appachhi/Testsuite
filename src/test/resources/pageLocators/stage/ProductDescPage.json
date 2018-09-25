@@ -1,0 +1,278 @@
+{
+  "imgNavigateArrowR": {
+    "NATIVE_ANDROID": "id=com.myntra.android:id/btn_pdp_next_image",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//span[contains(@class,'icon navigator right')]",
+    "DESKTOP": "locator=value"
+  },
+  "closeZoomImage": {
+    "NATIVE_ANDROID": "id=com.myntra.android:id/btn_pdp_fs_back",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//span[@class='icon-close']",
+    "DESKTOP": "locator=value"
+  },
+  " icoWishlist   ": {
+    "NATIVE_ANDROID": "xpath = //*[@content-desc='rightElement1']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "id=header-wishlist-icon",
+    "DESKTOP": "locator=value"
+  },
+  "wishlistInfoPopup": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "xpath=//div[contains(@class,'notify-info-message')]"
+  },
+  " icoBag  ": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  " lblProductName  ": {
+    "NATIVE_ANDROID": "xpath = //android.widget.TextView[@index='0']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//div/h1[@class='product-title']",
+    "DESKTOP": "xpath=//h1[@class='pdp-title']"
+  },
+  " lblSellingPrice  ": {
+    "NATIVE_ANDROID": "xpath=(//*[@content-desc='pdp_price']/android.widget.TextView)[1]",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//span[@class='price']",
+    "DESKTOP": "xpath=//strong[@class='pdp-price']"
+  },
+  " lblActualPrice  ": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//span[@class='original-price']\n\n",
+    "DESKTOP": "locator=value"
+  },
+  " lblPercentageDiscount  ": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//div[@class='pdp-price-info']/span[2]/span[2]\n\n",
+    "DESKTOP": "locator=value"
+  },
+  " lnkTapBestPrice  ": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@text='Tap for best price']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//div[@class='tapForBest']",
+    "DESKTOP": "xpath=//span[@class='pdp-offers-moreOffersButton']"
+  },
+  " btnCloseSizeChart  ": {
+    "NATIVE_ANDROID": "xpath=//android.widget.FrameLayout/android.view.ViewGroups",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//span[@class='icon-close']",
+    "DESKTOP": "xpath=//button[@class='sizeChartWeb-close sizeChartWeb-button']"
+  },
+  " lnkSizeChart  ": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@text='SIZE CHART']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//button[text()='Size Chart']",
+    "DESKTOP": "xpath=//button[text()='Size Chart']"
+  },
+  " isSizeChartPresent  ": {
+    "NATIVE_ANDROID": "xpath=.//*[contains(@text,‘Size’)]",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=.//*[text()='Size Chart']",
+    "DESKTOP": "locator=value"
+  },
+  " btnSelectSize  ": {
+    "NATIVE_ANDROID": "xpath=//*[starts-with(@content-desc,'size_select_')]",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=(//button[contains(@class,'btn') and contains(@class,'default') and contains(@class,'outline') and contains(@class,'size-btn') and not(contains(@class,'disabled'))])[1]",
+    "DESKTOP": "xpath=//*[@class='size-buttons-size-button size-buttons-size-button-default' or @class='size-buttons-size-button-selected size-buttons-size-button size-buttons-size-button-default size-buttons-big-size']"
+  },
+  " chdSelectSize  ": {
+    "NATIVE_ANDROID": "xpath=//android.view.ViewGroup[@index='1']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=(//button[contains(@class,'btn') and contains(@class,'default') and contains(@class,'outline') and contains(@class,'size-btn') and not(contains(@class,'disabled'))])[1]",
+    "DESKTOP": "xpath=//div[@class='size-buttons-size-buttons']"
+  },
+  " btnAddToBag  ": {
+    "NATIVE_ANDROID": "xpath=//*[@text='ADD TO BAG']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//button[text()='ADD TO BAG']",
+    "DESKTOP": "xpath=//div[text()='ADD TO BAG']"
+  },
+  " btnGoToBag  ": {
+    "NATIVE_ANDROID": "xpath=//*[@text='GO TO BAG']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=.//*[text()='GO TO BAG']",
+    "DESKTOP": "xpath=//span[text()='GO TO BAG']"
+  },
+  " btnSave  ": {
+    "NATIVE_ANDROID": "xpath=//*[@content-desc='save_button']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=.//*[text()='SAVE']",
+    "DESKTOP": "xpath=//div[text()='WISHLIST']"
+  },
+  " btnSaved ": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@text='SAVED']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//button[@class='btn default flat  block wishlist added']",
+    "DESKTOP": "xpath=//div[text()='WISHLISTED']"
+  },
+  "lblCheckDelivery": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//*[@class='card-title' and contains(text(),'Delivery')]",
+    "DESKTOP": "locator=value"
+  },
+  "lnkEnterPincode": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "txtPincode": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=(//input[@class='form-control'])",
+    "DESKTOP": "locator=value"
+  },
+  "btnCheck": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=(//button[text()='CHECK'])",
+    "DESKTOP": "locator=value"
+  },
+  "btnDone": {
+    "NATIVE_ANDROID": "xpath=//*[@text='DONE' or @content-desc='buy_done_button']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=.//*[text()='CONFIRM']",
+    "DESKTOP": "xpath=//a[@class='pdp-goToCart pdp-add-to-bag pdp-button']"
+  },
+  "lnkMoreProducts": {
+    "NATIVE_ANDROID": "xpath=.//android.view.ViewGroup[@content-desc='similar_link_0']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=(.//span[@class='icon-chevron pull-right'])[1]",
+    "DESKTOP": "xpath=//h3[@class='similar-heading']"
+  },
+  "lblSimilarProductsHeader": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//h4[text()='Similar Products']",
+    "DESKTOP": "locator=value"
+  },
+  "btnEnterPinCode": {
+    "NATIVE_ANDROID": "xpath =//android.widget.TextView[@text='Enter PIN Code']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//input[@placeholder='Enter Pincode']",
+    "DESKTOP": "xpath=//input[@placeholder='Enter pincode']"
+  },
+  "txtPinCode": {
+    "NATIVE_ANDROID": "xpath = //android.widget.EditText[@content-desc='delivery_pincode_input']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//input[@placeholder='Enter Pincode']",
+    "DESKTOP": "xpath=//input[@placeholder='Enter pincode']"
+  },
+  "btnCheckDeliveryOption": {
+    "NATIVE_ANDROID": "xpath = //android.widget.TextView[@text='CHECK']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//button[text()='CHECK']",
+    "DESKTOP": "xpath=//input[@class='pincode-check pincode-button']"
+  },
+  "icoUser": {
+    "NATIVE_ANDROID": "xpath=//*[@content-desc='leftElement']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//span[@class='icon icon-menu']",
+    "DESKTOP": "xpath=//div[@class='desktop-userIconsContainer']"
+  },
+  "lnkWishlist": {
+    "NATIVE_ANDROID": "xpath=//*[@content-desc='leftElement']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//span[@class='icon icon-wishlist']",
+    "DESKTOP": "xpath=//div[text()='Wishlist']"
+  },
+  "txaDeliveryAndServices": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "class=card-title",
+    "DESKTOP": "locator=value"
+  },
+  "lnkChangePin": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@text='CHANGE']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//button[text()='CHANGE PIN']",
+    "DESKTOP": "locator=value"
+  },
+  "imgLargeThumbnail": {
+    "NATIVE_ANDROID": "xpath=//*[starts-with(@content-desc, 'pdp_image_')]",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//*[contains(@class,'slideshow')]",
+    "DESKTOP": "xpath=//div[@style='display: inline-block;']"
+  },
+  "imgSmallThumbnails": {
+    "NATIVE_ANDROID": "xpath=//*[@content-desc='image_swipe']/*[4]/*",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//div[starts-with(@class,'dot')]",
+    "DESKTOP": "xpath=//div[@class='thumbnails-vertical-container']/button/img"
+  },
+  "lblProductCode": {
+    "NATIVE_ANDROID": "xpath=(//*[@content-desc='more_info']/android.widget.ScrollView/*/android.widget.TextView)[1]",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//*[@class='product-code']/strong",
+    "DESKTOP": "xpath=//div[@class='pdp-sizeFitDesc'][%s]//p[contains(@class,'pdp-sizeFit')]"
+  },
+  "lblProductDesc":{
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "xpath=//div[@class='pdp-sizeFitDesc']"
+  },
+  "txaDeliveryconfirmation": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@text='CHANGE']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "xpath=//h4[text()='Expected Delivery Time']"
+  },
+  "txaBestPriceDetails": {
+    "NATIVE_ANDROID": "xpath=//*[@content-desc='best_price_view']/android.widget.TextView[1]",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//div[@class='title' or contains(@class,'offerTitle')]",
+    "DESKTOP": "xpath=//div[@class='pdp-offers-offer']"
+  },
+  "lblProductPrice": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[contains(text(),'Product Code:')]",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//*[@class='product-code']/strong",
+    "DESKTOP": "xpath=//strong[@class='pdp-price']"
+  },
+  "lblStrikedPrice": {
+    "NATIVE_ANDROID": "xpath=(//*[@content-desc='pdp_price']/android.widget.TextView)[2]",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "class=original-price",
+    "DESKTOP": "xpath=//p[@class='pdp-discount-container']/s"
+  },
+  "lblProductDiscount": {
+    "NATIVE_ANDROID": "xpath=(//*[@content-desc='pdp_price']/android.widget.TextView)[3]",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//span[@class='discounted-offer text-uppercase']",
+    "DESKTOP": "xpath=//span[@class='pdp-discount']"
+  },
+  "txProductInBestPrice": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@text='This product is already at its best price']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "icoSimiliar": {
+    "NATIVE_ANDROID": "accessibility_id=similar_icon",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  " icoWishlist": {
+    "NATIVE_ANDROID": "xpath = //*[@content-desc='rightElement1']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "id=header-wishlist-icon",
+    "DESKTOP": "locator=value"
+  },
+  " txtAlreadyInBestPrice": {
+    "NATIVE_ANDROID": "xpath = //*[@content-desc='rightElement1']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "id=header-wishlist-icon",
+    "DESKTOP": "xpath=//div[@class='pdp-offers-offerTitle pdp-offers-couponNotFound']"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "txaHelpCenter": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  }
+}

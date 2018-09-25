@@ -1,0 +1,146 @@
+{
+  "txtSearchField": {
+    "NATIVE_ANDROID": "xpath=//android.widget.EditText[@content-desc='search_default_search_text_input']",
+    "NATIVE_IOS": "accessibility_id=Search for brands & products",
+    "MOBILE_WEB": "xpath=//div[@class='search-wrap']//input[@class='form-control search-box-input']",
+    "DESKTOP": "xpath=//input[@class='desktop-searchBar']"
+  },
+  "btnSearch": {
+    "NATIVE_ANDROID": "xpath=//android.widget.ImageView[@content-desc='rightElement0']",
+    "NATIVE_IOS": "xpath = //XCUIElementTypeNavigationBar[@name='Featured']/XCUIElementTypeButton[1]",
+    "MOBILE_WEB": "xpath=//span[@class='icon icon-search']",
+    "DESKTOP": "xpath=//span[@class='myntraweb-sprite desktop-iconSearch sprites-search']"
+  },
+  "btnWishlist": {
+    "NATIVE_ANDROID": "xpath=//android.widget.ImageView[@content-desc='rightElement2']",
+    "NATIVE_IOS": "xpath =//XCUIElementTypeNavigationBar[@name='Featured']/XCUIElementTypeButton[3]",
+    "MOBILE_WEB": "xpath=//a[@href='/wishlist' and @id='header-wishlist-icon']\n\n",
+    "DESKTOP": "locator=value"
+  },
+  "btnCart": {
+    "NATIVE_ANDROID": "xpath=//android.widget.ImageView[@content-desc='rightElement3']",
+    "NATIVE_IOS": "accessibility_id=Bag",
+    "MOBILE_WEB": "xpath=//span[@class='icon icon-bag']",
+    "DESKTOP": "xpath=//a[@class='desktop-cart']"
+  },
+  "ddlSearchAutoSuggest": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//span[@class='icon icon-bag']",
+    "DESKTOP": "locator=value"
+  },
+  "imgMyntraLogo": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@text='Myntra']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//a[@class='linkClean']",
+    "DESKTOP": "locator=value"
+  },
+  "icoHome": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "accessibility_id=Home",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "icoProfile": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "accessibility_id=Profile",
+    "MOBILE_WEB": "xpath=//span[text()='Profile']",
+    "DESKTOP": "class=desktop-infoEmail"
+  },
+  "icoCategories": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "accessibility_id=Categories",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "icoNotification": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "mnuHamburger": {
+    "NATIVE_ANDROID": "accessibility_id=leftElement",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//span[@class='icon icon-menu']",
+    "DESKTOP": "locator=value"
+  },
+  "btnLogin": {
+    "NATIVE_ANDROID": "xpath=//android.widget.Button[@index='0']",
+    "NATIVE_IOS": "xpath=//XCUIElementTypeButton[@name='LOG IN']",
+    "MOBILE_WEB": "xpath=//button[@class='btn primary  lg block ']",
+    "DESKTOP": "xpath=//button[@class='login-login-button']"
+  },
+  "icoUser": {
+    "NATIVE_ANDROID": "xpath=//*[@content-desc='leftElement']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//span[@class='icon icon-menu']",
+    "DESKTOP": "xpath=//div[@class='desktop-userIconsContainer']"
+  },
+  "mnuAccount": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@text = 'Account']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//*[@class='naviLevel' and text()='My Account']",
+    "DESKTOP": "locator=value"
+  },
+  "lnkSavedAddress": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//span[text()='Addresses']",
+    "DESKTOP": "xpath=//div[text()='Saved Addresses']"
+  },
+  "mnuOrders": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "accessibility_id=Orders Check your order status",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "lnkContactUs": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//a[text()='CONTACT US']",
+    "DESKTOP": "locator=value"
+  },
+  "lstCategoryLink": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "lnkMen": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "imgBanner": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "lnkSavedCards": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "lnkShopNow": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "lnkTopwear": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "btnAccount": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@text='Account']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  }
+}

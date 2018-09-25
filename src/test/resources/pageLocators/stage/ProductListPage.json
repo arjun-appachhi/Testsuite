@@ -1,0 +1,332 @@
+{
+  "btnFilter": {
+    "NATIVE_ANDROID": "accessibility_id=touchable_filter",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=.//*[text()='FILTER']",
+    "DESKTOP": "locator=value"
+  },
+  "btnDiscountInFilter": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@text='Discount Range']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//label[contains(text(),'Discount')]",
+    "DESKTOP": "xpath=//span[text()='Discount']"
+  },
+  "btnFilterOptionCategories": {
+    "NATIVE_ANDROID": "xpath=.//android.widget.TextView[@text='Categories']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=(//label[@class='customCheckbox'])[1]\n\n",
+    "DESKTOP": "xpath=//span[text()='Categories']"
+  },
+  "btnFilterOptionCategoriesCasualShoes": {
+    "NATIVE_ANDROID": "xpath=.//android.widget.TextView[@text='Casual Shoes']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=(//label[@class='customCheckbox'])[1]\n\n",
+    "DESKTOP": "locator=value"
+  },
+  "chkFilterOption": {
+    "NATIVE_ANDROID": "xpath=(//*[@content-desc='view_container' or @content-desc='view_title_container'])[1]",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=(//label[@class='customCheckbox'])[1]",
+    "DESKTOP": "xpath=//ul[@class='discount-list']/li"
+  },
+  "btnApply": {
+    "NATIVE_ANDROID": "accessibility_id=view_apply",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=.//*[text()='Apply']",
+    "DESKTOP": "locator=value"
+  },
+  "dblProductList": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//*[@class='searchProduct']",
+    "DESKTOP": "locator=value"
+  },
+  "btnSort": {
+    "NATIVE_ANDROID": "accessibility_id=text_sort",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//*[text()='SORT']",
+    "DESKTOP": "xpath=//div[@class='sort-sortBy']"
+  },
+  "btnLatest": {
+    "NATIVE_ANDROID": "accessibility_id=touchable_infocontainer-0",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=.//*[text()='Latest']",
+    "DESKTOP": "locator=value"
+  },
+  "btnPriceHightoLow": {
+    "NATIVE_ANDROID": "accessibility_id=touchable_infocontainer-1",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=.//button/i[@class='icon-pricehightolow text-md']",
+    "DESKTOP": "locator=value"
+  },
+  "lstSort": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[starts-with(@content-desc,'text_sort_item')]",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//div[@class='ripple-container ']/button",
+    "DESKTOP": "xpath=//label[@class='sort-label ']"
+  },
+  "btnOk": {
+    "NATIVE_ANDROID": "id=com.myntra.android:id/tv_ok_button",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "icoBag": {
+    "NATIVE_ANDROID": "accessibility_id=rightElement2",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//span[@class='icon icon-bag']",
+    "DESKTOP": "locator=value"
+  },
+  "lstFirstProductDetails": {
+    "NATIVE_ANDROID": "xpath=//android.widget.RelativeLayout[@index='1']/android.widget.TextView",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "lnkFirstProduct": {
+    "NATIVE_ANDROID": "xpath=.//android.widget.ImageView[@index='0' and @content-desc='image_image_container']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//*[@class='list']//a[1]",
+    "DESKTOP": "locator=value"
+  },
+  "imgSaveFirstProduct": {
+    "NATIVE_ANDROID": "xpath = //android.widget.ImageView[@index='0' and @content-desc='image_wishlist']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//*[@class='content-wrap']/div[2]",
+    "DESKTOP": "locator=value"
+  },
+  "allProductList": {
+    "NATIVE_ANDROID": "accessibility_id=view_list",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//*[@class='list']/li",
+    "DESKTOP": "class=product-base"
+  },
+  "lstSave": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//div[@class='wishlist text-md icon-add']",
+    "DESKTOP": "locator=value"
+  },
+  "lnkFilterByMen": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "xpath=//label[text()='Men']"
+  },
+  "lnkFilterByWomen": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "xpath=//label[text()='Women']"
+  },
+  "lnkFilterByBoys": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "xpath=//label[text()='Boys']"
+  },
+  "rdoDiscountFilterOptions": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "xpath=//ul[@class='discount-list']/li"
+  },
+  "chkCategoriesFilterOptions": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "xpath=//ul[@class='categories-list']/li"
+  },
+  "lstAllProducts": {
+    "NATIVE_ANDROID": "xpath=(//*[@content-desc='view_price'])[1]/*",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//li[@class='item']",
+    "DESKTOP": "xpath=//li[@class='product-base']"
+  },
+  "btnSave": {
+    "NATIVE_ANDROID": "accessibility_id=image_wishlist",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//div[@class='wishlist text-md icon-add']",
+    "DESKTOP": "xpath=//span[text()='save']"
+  },
+  "btnSaved": {
+    "NATIVE_ANDROID": "accessibility_id=image_wishlist",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//div[@class='wishlist text-md wishlisted icon-added']",
+    "DESKTOP": "xpath=//span[text()='saved']"
+  },
+  "btnAddToBag": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "xpath=//span[text()='Add to bag']"
+  },
+  "btnSizes": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "xpath=//button[@class='product-sizeButton']"
+  },
+  "txaAddToBagConfirmationMessage": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "xpath=//div[contains(@class,'notify-default')]"
+  },
+  "txaSellingPrice": {
+    "NATIVE_ANDROID": "xpath=(//android.widget.TextView[@content-desc='text_price'])[1]",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//span[@class='price mr5']",
+    "DESKTOP": "xpath=//div[@class='product-price']/span[1]"
+  },
+  "txaStrikedPrice": {
+    "NATIVE_ANDROID": "xpath=(//android.widget.TextView[@content-desc='text_mrp'])[1]",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//span[@class='orig-price mr5']",
+    "DESKTOP": "xpath=//span[@class='product-strike']"
+  },
+  "txaDiscount": {
+    "NATIVE_ANDROID": "xpath=(//android.widget.TextView[@content-desc='text_discount'])[1]",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "class=disc-percent",
+    "DESKTOP": "class=product-discountPercentage"
+  },
+  "lnkClearAll": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//button[text()='Clear All']",
+    "DESKTOP": "xpath=//span[@class='filter-summary-resetAll']"
+  },
+  "txaSellingPriceIfStrikedPriceAvailable": {
+    "NATIVE_ANDROID": "xpath=(//android.widget.TextView[@content-desc='text_price'])[1]",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//span[@class='price mr5']",
+    "DESKTOP": "xpath=//span[@class='product-discountedPrice']"
+  },
+  "imgFirstProduct": {
+    "NATIVE_ANDROID": "xpath=(//android.widget.ImageView[@content-desc='image_image_container'])[1]",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "xpath=(//div[@class='product-productMetaInfo'])[1]"
+  },
+  "icoUser": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "xpath=//div[@class='desktop-userIconsContainer']"
+  },
+  "lnkWishlist": {
+    "NATIVE_ANDROID": "xpath=//*[@content-desc='rightElement1']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "id=header-wishlist-icon",
+    "DESKTOP": "xpath=//div[text()='Wishlist']"
+  },
+  "btnOffers": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@text='Offers']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "btnAutomation5": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@text='automation5']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//*[(@class='customCheckbox') and contains(text(),'OfferTypeAOLXB')]",
+    "DESKTOP": "locator=value"
+  },
+  "lblPromotions": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//label[text()='Promotions']",
+    "DESKTOP": "xpath=//h4[@class='atsa-title' and text()='Promotions']"
+  },
+  "chkBoxPromotionsFreeGift": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//input[contains(@value,'OfferType')]/parent::label",
+    "DESKTOP": "xpath=//input[contains(@value,'OfferType')]/parent::label"
+  },
+  "plpItemCount": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "xpath=//span[@class='horizontal-filters-sub']"
+  },
+  "chkBoxStaggeredCombo": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@text='Buy3Get30-Buy2Get20-Buy1Get10']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=(//input[contains(@value,'Buy3Get')]/parent::label)[3]",
+    "DESKTOP": "xpath=(//input[contains(@value,'Buy3Get')]/parent::label)[3]"
+  },
+  "chkBoxPromotionsBOGO": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//input[contains(@value,'Buy 1 Get 1')]/parent::label",
+    "DESKTOP": "xpath=//input[contains(@value,'Buy 1 Get 1')]/parent::label"
+  },
+  "icoBag": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "xpath=//a[@class='desktop-cart']"
+  },
+  "lnkSecondItem": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=(//li[@class='item']//img[@class='img-responsive'])[2]",
+    "DESKTOP": "xpath=(//li[@class='product-base'])[2]"
+  },
+  "btnAddToBagSecondItem": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "xpath=(//span[@class='product-actionsButton product-addToBag'])[2]"
+  },
+  "btnSizesForSecondItem": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "xpath=(//div[@class='product-sizeButtonsContaier'])[2]/button"
+  },
+  "lnkThirdItem": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=(//li[@class='item']//img[@class='img-responsive'])[3]",
+    "DESKTOP": "xpath=(//li[@class='product-base'])[3]"
+  },
+  "btnAddToBagThirdItem": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "xpath=(//span[@class='product-actionsButton product-addToBag'])[3]"
+  },
+  "btnSizesForThirdItem": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "xpath=(//div[@class='product-sizeButtonsContaier'])[3]/button"
+  },
+  "loaderSpinner": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "xpath=//div[@class='loader-spinner']"
+  },
+  "chkConditionalDiscount": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//*[(@class='customCheckbox') and contains(text(),'Buy3Get30-Buy2Get25')]",
+    "DESKTOP": "xpath=//input[@value='Buy3Get30-Buy2Get25']"
+  },
+  "productAloneNotApplicableForFreeGift": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//*[(@class='customCheckbox') and contains(text(),'Free Football On Gini Jony')]",
+    "DESKTOP": "xpath=//input[@value='Free Football On Gini Jony']"
+  },
+  " lblProductName  ": {
+    "NATIVE_ANDROID": "id=com.myntra.android:id/tv_product_list_item_brand",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//div[@class='prod-title text-md']",
+    "DESKTOP": "xpath=//div[@class='product-brand']"
+  }
+}

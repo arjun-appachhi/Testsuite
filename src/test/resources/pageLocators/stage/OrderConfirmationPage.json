@@ -1,0 +1,99 @@
+{
+  "txaOrderConfirmed": {
+    "NATIVE_ANDROID": "class=msg-success",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//div[text()='Order Confirmed']",
+    "DESKTOP": "xpath=//div[text()='Order Confirmed']"
+  },
+  "lnkViewOrder": {
+    "NATIVE_ANDROID": "xpath=//a[text()='View Order']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//a[text()='View Order']",
+    "DESKTOP": "xpath=//a[text()='View Order']"
+  },
+  "imgMyntraLogo": {
+    "NATIVE_ANDROID": "xpath=//a[contains(@class,'mlogo')",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//a[contains(@class,'mlogo')]",
+    "DESKTOP": "class=myntra-logo"
+  },
+  "txaOrderNumber": {
+    "NATIVE_ANDROID": "xpath=(//span[@class='orderInfo-value'])[2]",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=(//span[@class='orderInfo-value'])[2]",
+    "DESKTOP": "xpath=//div[@class='msg-num']/strong"
+  },
+  "txaOrderNumberInMyOrdersPage": {
+    "NATIVE_ANDROID": "class=order-orderNumber",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "class=order-orderNumber",
+    "DESKTOP": "class=order-orderNumber"
+  },
+  "lnkOrder": {
+    "NATIVE_ANDROID": "xpath=//span[@class='icon icon-menu']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//span[@class='icon icon-menu']",
+    "DESKTOP": "xpath=//div[text()='Orders']"
+  },
+  "btnContinueShopping": {
+    "NATIVE_ANDROID": "class=order-no-value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "xpath=//a[text()='Continue Shopping ']"
+  },
+  "icoUser": {
+    "NATIVE_ANDROID": "xpath=//span[@class='icon icon-menu']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//span[@class='icon icon-menu']",
+    "DESKTOP": "xpath=//div[@class='desktop-userIconsContainer']"
+  },
+  "lstOrders": {
+    "NATIVE_ANDROID": "class=order-order",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "class=order-order",
+    "DESKTOP": "class=order-order"
+  },
+  "lstOrderStatus": {
+    "NATIVE_ANDROID": "xpath=//*[contains(@class,'item-status')]",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//*[contains(@class,'item-status')]",
+    "DESKTOP": "xpath=//*[contains(@class,'item-status')]"
+  },
+  "lstCancelOrder": {
+    "NATIVE_ANDROID": "class=item-button",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//*[@class='item-button']",
+    "DESKTOP": "class=item-button"
+  },
+  "cancelReason": {
+    "NATIVE_ANDROID": "xpath=//*[@class='lineDropdown-lineDropdown ']/li/label",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//*[@class='lineDropdown-customLabel']",
+    "DESKTOP": "xpath=//*[@class='lineDropdown-lineDropdown ']/li/label"
+  },
+  "btnCancelConfirm": {
+    "NATIVE_ANDROID": "xpath=//div[@class='cancellationForm-button ']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//div[@class='cancellationForm-button ']",
+    "DESKTOP": "xpath=//div[@class='cancellationForm-button ']"
+  },
+  "btnCancelConfirmDisable": {
+    "NATIVE_ANDROID": "xpath=//*[contains(@class,'cancellationForm-disabled')]",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//*[contains(@class,'cancellationForm-disabled')]",
+    "DESKTOP": "xpath=//*[contains(@class,'cancellationForm-disabled')]"
+  },
+  "btnCancelDone": {
+    "NATIVE_ANDROID": "xpath=//div[@class='confirmation-button']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//div[@class='confirmation-button']",
+    "DESKTOP": "xpath=//div[@class='confirmation-button']"
+  },
+  "btnOrderDetails": {
+    "NATIVE_ANDROID": "class=item-rightArrow",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "class=item-rightArrow",
+    "DESKTOP": "locator=value"
+  }
+}
+

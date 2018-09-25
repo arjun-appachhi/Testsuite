@@ -1,0 +1,8 @@
+{
+  "btnWishlist": {
+    "NATIVE_ANDROID": "xpath=//android.widget.ImageView[@content-desc='rightElement3']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//a[@href='/wishlist' and @id='header-wishlist-icon']\n\n",
+    "DESKTOP": "locator=value"
+  }
+}

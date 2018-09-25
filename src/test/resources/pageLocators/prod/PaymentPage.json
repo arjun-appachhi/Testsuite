@@ -1,0 +1,314 @@
+{
+  "lnkChangeAddress": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "FreeDelivery": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "lstOtherPaymentOptions": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "btnConfirmOrder": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "txtPaymentHeader": {
+    "NATIVE_ANDROID": "id=choose-pay-lbl",
+    "NATIVE_IOS": "id=choose-pay-lbl",
+    "MOBILE_WEB": "id=choose-pay-lbl",
+    "DESKTOP": "xpath=//span[text()='Choose Payment Mode']"
+  },
+  "txtCodHeader": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "txtPhonePeHeader": {
+    "NATIVE_ANDROID": "xpath=android.view.View[@text='Pay by PhonePe' or @resource-id='tab_phonepe' or @content-desc='Pay by PhonePe']",
+    "NATIVE_IOS": "xpath=//li[@id='tab_phonepe']",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "xpath=//li[@id='tab_phonepe']"
+  },
+  "txtCreditDebitHeader": {
+    "NATIVE_ANDROID": "xpath=//li[@id='tab_credit_card']",
+    "NATIVE_IOS": "accessibility_id=Credit/Debit Card",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "xpath=//li[@id='tab_credit_card']"
+  },
+  "tabCreditCard": {
+    "NATIVE_ANDROID": "id=tab_credit_card",
+    "NATIVE_IOS": "id=tab_credit_card",
+    "MOBILE_WEB": "id=tab_credit_card",
+    "DESKTOP": "id=tab_credit_card"
+  },
+  "tabNetBanking": {
+    "NATIVE_ANDROID": "id=tab_net_banking",
+    "NATIVE_IOS": "id=tab_net_banking",
+    "MOBILE_WEB": "id=tab_net_banking",
+    "DESKTOP": "xpath=//li[@id='tab_net_banking']"
+  },
+  "tabCOD": {
+    "NATIVE_ANDROID": "id=tab_cod",
+    "NATIVE_IOS": "id=tab_cod",
+    "MOBILE_WEB": "id=tab_cod",
+    "DESKTOP": "id=tab_cod"
+  },
+  "tabPhonePe": {
+    "NATIVE_ANDROID": "id=tab_phonepe",
+    "NATIVE_IOS": "accessibility_id=PhonePe (UPI, Cards)",
+    "MOBILE_WEB": "id=tab_phonepe",
+    "DESKTOP": "xpath=//li[@id='tab_phonepe']"
+  },
+  "tabGiftCard": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "tabWallets": {
+    "NATIVE_ANDROID": "id=tab_wallets",
+    "NATIVE_IOS": "accessibility_id=Wallets",
+    "MOBILE_WEB": "id=tab_wallets",
+    "DESKTOP": "xpath=//li[@id='tab_wallets']"
+  },
+  "tabEmiCreditCard": {
+    "NATIVE_ANDROID": "id=tab_emi",
+    "NATIVE_IOS": "accessibility_id=EMI (Credit Card)",
+    "MOBILE_WEB": "id=tab_emi",
+    "DESKTOP": "locator=value"
+  },
+  "txtCreditCardNumber": {
+    "NATIVE_ANDROID": "class=card-num-input",
+    "NATIVE_IOS": "class=card-num-input",
+    "MOBILE_WEB": "class=card-num-input",
+    "DESKTOP": "class=card-num-input"
+  },
+  "txtNameOnCreditCard": {
+    "NATIVE_ANDROID": "xpath=//input[@placeholder='Name On Card']",
+    "NATIVE_IOS": "xpath=//input[@placeholder='Name On Card']",
+    "MOBILE_WEB": "xpath=//input[@placeholder='Name On Card']",
+    "DESKTOP": "xpath=//input[@name='bill_name']"
+  },
+  "ddlExpiryMonthField": {
+    "NATIVE_ANDROID": "name=card_month",
+    "NATIVE_IOS": "name=card_month",
+    "MOBILE_WEB": "name=card_month",
+    "DESKTOP": "xpath=//select[@name='card_month']"
+  },
+  "rdoSelectMonth": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "ddlExpiryYearField": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "name=card_year",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "rdoSelectYear": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "txtCVV": {
+    "NATIVE_ANDROID": "xpath=//div[@class='row cvv']/input[@placeholder='CVV']",
+    "NATIVE_IOS": "xpath=//div[@class='row cvv']/input[@placeholder='CVV']",
+    "MOBILE_WEB": "xpath=//div[@class='row cvv']/input[@placeholder='CVV']",
+    "DESKTOP": "xpath=//div[@class='row cvv']/input[@placeholder='CVV']"
+  },
+  "btnPayNow": {
+    "NATIVE_ANDROID": "xpath=//button[contains(text(),'PAY NOW')]",
+    "NATIVE_IOS": "xpath=//button[contains(text(),'PAY NOW')]",
+    "MOBILE_WEB": "xpath=//button[contains(text(),'PAY NOW')]",
+    "DESKTOP": "locator=value"
+  },
+  "txtGiftCardNumber": {
+    "NATIVE_ANDROID": "id=card-number-txt",
+    "NATIVE_IOS": "id=card-number-txt",
+    "MOBILE_WEB": "id=card-number-txt",
+    "DESKTOP": "locator=value"
+  },
+  "txtGiftCardPin": {
+    "NATIVE_ANDROID": "id=card-pin-txt",
+    "NATIVE_IOS": "id=card-pin-txt",
+    "MOBILE_WEB": "id=card-pin-txt",
+    "DESKTOP": "locator=value"
+  },
+  "btnGiftCardApply": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "id=apply-btn-confirm",
+    "MOBILE_WEB": "id=apply-btn-confirm",
+    "DESKTOP": "locator=value"
+  },
+  "lnkChangePaymentMode": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "class=change-pay-mode",
+    "MOBILE_WEB": "class=change-pay-mode",
+    "DESKTOP": "locator=value"
+  },
+  "lnkCheckEligibility": {
+    "NATIVE_ANDROID": "xpath=//android.view.View[contains(text(),'Check eligibility']",
+    "NATIVE_IOS": "xpath=//div[text()='Check eligibility']",
+    "MOBILE_WEB": "xpath=//div[text()='Check eligibility']",
+    "DESKTOP": "locator=value"
+  },
+  "btnSelectFirstBank": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "btnNetbankingPayNow": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "ddlEmiSelectBank": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "rdoSelectBank": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "ddlSelectEmiDuration": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "lblOrderConfirmedHeader": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "lblOrderConfirmedMsg": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "lnkViewOrder": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "lblStatusQueued": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "lblOrderNumber": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "icoHdfc": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "btnPayOnDelivery": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "btnPayNowForCreditCardPayment": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "txtPayByPhonePe": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "icoAvenuesTest": {
+    "NATIVE_ANDROID": "xpath=//div[@class='bank-icon icon-bank-68 icon-bank-gen']",
+    "NATIVE_IOS": "xpath=//div[@class='bank-icon icon-bank-68 icon-bank-gen']",
+    "MOBILE_WEB": "xpath=//div[@class='bank-icon icon-bank-68 icon-bank-gen']",
+    "DESKTOP": "xpath=//div[@class='bank-icon icon-bank-68 icon-bank-gen']"
+  },
+  "chkMyntraPoint": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "lnkChangePayment": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "lnkViewDetails": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "lblBagTotal": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "lblEstimatedTax": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "lblCouponDiscount": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "lblBagDiscount": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "lblDelivery": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "lblOrderTotal": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  }
+}

@@ -1,0 +1,501 @@
+{
+  "btnOK": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "accessibility_id=OK",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "lstProductSet": {
+    "NATIVE_ANDROID": "class=col1",
+    "NATIVE_IOS": "xpath=//*[@name='SHOPPING BAG']/XCUIElementTypeOther[16]/*",
+    "MOBILE_WEB": "class=col1",
+    "DESKTOP": "xpath=//div[contains(@id,'prod-item')]"
+  },
+  "btnRemove": {
+    "NATIVE_ANDROID": "xpath=//span[text()='REMOVE']",
+    "NATIVE_IOS": "accessibility_id=REMOVE",
+    "MOBILE_WEB": "xpath=//span[text()='REMOVE']",
+    "DESKTOP": "xpath=//span[@class='confirm-delete-item']"
+  },
+  "btnPopupRemove": {
+    "NATIVE_ANDROID": "xpath=//button[contains(text(),'REMOVE')]",
+    "NATIVE_IOS": "xpath=//XCUIElementTypeButton[@name=\"REMOVE\"]",
+    "MOBILE_WEB": "xpath=//button[contains(text(),'REMOVE')]",
+    "DESKTOP": "xpath=//button[text()='REMOVE']"
+  },
+  "drpSize": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "lblChangeSize": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "lnkViewDetails": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "lblTotalPayable": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "tlbHeader": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "tabApplyCoupon": {
+    "NATIVE_ANDROID": "class=apply-coupon",
+    "NATIVE_IOS": "xpath=(//XCUIElementTypeStaticText[@name=\"Apply Coupon\"])[1]",
+    "MOBILE_WEB": "xpath=//a[@class='apply-coupon']//span[contains(text(),'Apply Coupon')]",
+    "DESKTOP": "xpath=//a[text()='Apply Coupon']"
+  },
+  "lblYouSaved": {
+    "NATIVE_ANDROID": "xpath = .//div[contains(text(),'You saved')]",
+    "NATIVE_IOS": "xpath = (//XCUIElementTypeStaticText[@name='Apply Coupon'])[1]",
+    "MOBILE_WEB": "xpath= //*[@class='coupon-section']/div[1]/div[2]",
+    "DESKTOP": "xpath=//span[text()='Edit']"
+  },
+  "tabGiftWrap": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "accessibility_id=Gift wrap for Rs 25",
+    "MOBILE_WEB": "xpath=//*[contains(text(),'Gift wrap for Rs 25')]",
+    "DESKTOP": "xpath=//a[@class='m-hide blue edit-giftcard-lbl']"
+  },
+  "btnPlaceOrder": {
+    "NATIVE_ANDROID": "xpath=//button[text()='PLACE ORDER']",
+    "NATIVE_IOS": "accessibility_id=PLACE ORDER",
+    "MOBILE_WEB": "xpath=//button[text()='PLACE ORDER']",
+    "DESKTOP": "xpath=//button[text()='PLACE ORDER']"
+  },
+  "lblOptions": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "txtCouponCode": {
+    "NATIVE_ANDROID": "xpath =//input[@class='enter-coupon m-textbox']",
+    "NATIVE_IOS": "xpath =//*[contains(@class,'m-textbox')]",
+    "MOBILE_WEB": "xpath =//input[@class='enter-coupon m-textbox']",
+    "DESKTOP": "xpath=//input[@class='enter-coupon m-textbox']"
+  },
+  "btnCancel": {
+    "NATIVE_ANDROID": "xpath=//button[text()='Cancel']",
+    "NATIVE_IOS": "xpath=//button[text()='Cancel']",
+    "MOBILE_WEB": "xpath=//div[@class='btns']/button[2]",
+    "DESKTOP": "xpath=//button[text()='Cancel']"
+  },
+  "btnApply": {
+    "NATIVE_ANDROID": "name = btn-apply",
+    "NATIVE_IOS": "name = btn-apply",
+    "MOBILE_WEB": "name = btn-apply",
+    "DESKTOP": "xpath=//button[text()='Apply']"
+  },
+  "btnGiftWrap": {
+    "NATIVE_ANDROID": "xpath=//div[text()='Gift wrap for Rs 25']",
+    "NATIVE_IOS": "xpath=//div[text()='Gift wrap for Rs 25']",
+    "MOBILE_WEB": "xpath=//*[contains(text(),'Gift wrap for Rs 25')]",
+    "DESKTOP": "xpath=//span[@class='m-hide gift-wrap-checkbox']"
+  },
+  "txtRecipient": {
+    "NATIVE_ANDROID": "name=giftto",
+    "NATIVE_IOS": "xpath=.//XCUIElementTypeTextField[@value='Recipient Name']",
+    "MOBILE_WEB": "id=gift-to",
+    "DESKTOP": "xpath=//input[@id='gift-to']"
+  },
+  "txtMessage": {
+    "NATIVE_ANDROID": "id=gift-msg",
+    "NATIVE_IOS": "accessibility_id=Gift Message",
+    "MOBILE_WEB": "id=gift-msg",
+    "DESKTOP": "xpath=//textarea[@class='m-textbox']"
+  },
+  "txtSender": {
+    "NATIVE_ANDROID": "id=gift-from",
+    "NATIVE_IOS": "xpath=//XCUIElementTypeTextField[@value='Sender Name']",
+    "MOBILE_WEB": "id=gift-from",
+    "DESKTOP": "xpath=//input[@id='gift-from']"
+  },
+  "btnSaveGift": {
+    "NATIVE_ANDROID": "xpath=//button[text()='Save']",
+    "NATIVE_IOS": "accessibility_id=SAVE",
+    "MOBILE_WEB": "xpath=.//*[text()='Save']",
+    "DESKTOP": "xpath=//button[text()='Save']"
+  },
+  "btnCancelGift": {
+    "NATIVE_ANDROID": "xpath=//button[text()='Cancel']",
+    "NATIVE_IOS": "accessibility_id=CANCEL",
+    "MOBILE_WEB": "xpath=//*[@id='lb-gift-wrap']/div[2]/button[1]",
+    "DESKTOP": "locator=value"
+  },
+  "tlbWishlist": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@text='WISHLIST']",
+    "NATIVE_IOS": "accessibility_id=WISHLIST",
+    "MOBILE_WEB": "xpath=//span[text()='Add more from wishlist']",
+    "DESKTOP": "xpath=//span[text()='Add more from wishlist']"
+  },
+  "btnMoveToBag": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "btnSelectSize": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "chdSelectSize": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "btnOKPermission": {
+    "NATIVE_ANDROID": "id=com.myntra.android:id/tv_ok_button",
+    "NATIVE_IOS": "accessibility_id=OK",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "lblVerifyAllPriceDetails": {
+    "NATIVE_ANDROID": "xpath=//div[contains(@class,'order-summary-span') and contains(@class,'br-b-grey')]/div",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "imgProductImage": {
+    "NATIVE_ANDROID": "class=col1",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "lblActualPrice": {
+    "NATIVE_ANDROID": "xpath=//div[@class='amount red']/span/span[1]",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "lblSellingPrice": {
+    "NATIVE_ANDROID": "xpath=//div[@class='amount red']/div",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//div[@class='amount red']/div",
+    "DESKTOP": "xpath=//div[@class='c-dblue total-rupees']"
+  },
+  "lblProductTitle": {
+    "NATIVE_ANDROID": "class=prod-name",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "btnRemoveGiftWrap": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "accessibility_id=Remove",
+    "MOBILE_WEB": "xpath=//span[text()='REMOVE']",
+    "DESKTOP": "locator=value"
+  },
+  "btnEditGiftMsg": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//button[text()='Edit Message']",
+    "DESKTOP": "xpath=//span[contains(@class,'checked')]"
+  },
+  "btnGoToWishlist": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "lblEmptyBagMsg": {
+    "NATIVE_ANDROID": "xpath=//div[text()='Shopping Bag empty']",
+    "NATIVE_IOS": "accessibility_id=SHOPPING BAG EMPTY",
+    "MOBILE_WEB": "xpath=//div[text()='Shopping Bag empty']",
+    "DESKTOP": "xpath=//div[text()='Your Shopping Bag is empty']"
+  },
+  "tlbCross": {
+    "NATIVE_ANDROID": "xpath=//div[text()='Shopping Bag empty']",
+    "NATIVE_IOS": "xpath=//div[text()='Shopping Bag empty']",
+    "MOBILE_WEB": "xpath=//div[text()='Shopping Bag empty']",
+    "DESKTOP": "locator=value"
+  },
+  "lstAllItems": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "lblOfferMsg": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "btnMoveToWishlist": {
+    "NATIVE_ANDROID": "xpath=.//div[@class='actions']/span[2]",
+    "NATIVE_IOS": "accessibility_id=MOVE TO WISHLIST",
+    "MOBILE_WEB": "xpath=//span[text()='MOVE TO WISHLIST']",
+    "DESKTOP": "xpath=//span[text()='MOVE TO WISHLIST']"
+  },
+  "imgBagPageLogo": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "tabCoupon": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "msgCoupon": {
+    "NATIVE_ANDROID": "xpath=//div[text()='Coupon applied successfully']",
+    "NATIVE_IOS": "locator=//div[text()='Coupon applied successfully']",
+    "MOBILE_WEB": "xpath=//div[text()='Coupon applied successfully']",
+    "DESKTOP": "locator=value"
+  },
+  "btnClose": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "btnSize": {
+    "NATIVE_ANDROID": "xpath=.//span[text()='Size:  ']/following::span[2]",
+    "NATIVE_IOS": "accessibility_id=Size:",
+    "MOBILE_WEB": "xpath=//span[text()='Size:  ']",
+    "DESKTOP": "xpath=//span[text()='Size:  ']"
+  },
+  "btnQuantity": {
+    "NATIVE_ANDROID": "xpath=.//span[text()='Qty:  ']/following::span[2]",
+    "NATIVE_IOS": "accessibility_id=Qty:",
+    "MOBILE_WEB": "xpath=//span[text()='Qty:  ']",
+    "DESKTOP": "xpath=//span[text()='Qty:  ']"
+  },
+  "lstSelectSize": {
+    "NATIVE_ANDROID": "xpath=.//div[@class='sizes']/button",
+    "NATIVE_IOS": "xpath=//XCUIElementTypeOther[@name=\"SHOPPING BAG\"]/XCUIElementTypeOther/XCUIElementTypeButton",
+    "MOBILE_WEB": "xpath=//button[contains(@class,'size-btn')and not (contains(@class,'selected')) and not (contains(@class,'unavailable'))][1]",
+    "DESKTOP": "xpath=//button[contains(@class,'size-btn')and not (contains(@class,'selected')) and not (contains(@class,'unavailable'))][1]"
+  },
+  "lstSelectQty": {
+    "NATIVE_ANDROID": "xpath=//button[contains(@class,'sel-qty')and not (contains(@class,'selected'))][1]",
+    "NATIVE_IOS": "xpath=//XCUIElementTypeOther[@name=\"SHOPPING BAG\"]/XCUIElementTypeOther/XCUIElementTypeButton",
+    "MOBILE_WEB": "xpath=//button[contains(@class,'sel-qty')and not (contains(@class,'selected'))][1]",
+    "DESKTOP": "xpath=//button[contains(@class,'sel-qty')and not (contains(@class,'selected'))][1]"
+  },
+  "lblCouponApplied": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "fraProduct": {
+    "NATIVE_ANDROID": "xpath=//div[contains(@class,'prod-item')]",
+    "NATIVE_IOS": "xpath=//div[contains(@class,'prod-item')]",
+    "MOBILE_WEB": "xpath=//div[contains(@class,'prod-item')]",
+    "DESKTOP": "xpath=//div[contains(@class,'prod-item')]"
+  },
+  "lnkWishlist": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@text='WISHLIST']",
+    "NATIVE_IOS": "xpath=//a[text()='+Add items from wishlist']",
+    "MOBILE_WEB": "xpath=//a[text()='GO TO WISHLIST']",
+    "DESKTOP": "xpath=//a[text()='+Add items from wishlist']"
+  },
+  "freeGift": {
+    "NATIVE_ANDROID": "xpath=//span[text()=' GIFT']",
+    "NATIVE_IOS": "xpath=//span[text()=' GIFT']",
+    "MOBILE_WEB": "xpath=//span[text()=' GIFT']",
+    "DESKTOP": "xpath=//span[text()=' GIFT']"
+  },
+  "spnLoader": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "lblStrickedPrice": {
+    "NATIVE_ANDROID": "xpath=//div[@class='amount red']/div",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//span[@class='discount-new']/span[@class='strike gray original-amount']",
+    "DESKTOP": "xpath=//div[@class='discount m-hide']/span[@class='strike gray original-amount']"
+  },
+  "lblProductDiscount": {
+    "NATIVE_ANDROID": "xpath=//span[@class='discount-new']/span[2]",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//span[@class='discount-new']/span[2]",
+    "DESKTOP": "xpath=//div[@class='discount m-hide']/span[@class='highlight-black discount-percentage']"
+  },
+  "btnAddItem": {
+    "NATIVE_ANDROID": "xpath=//div[@class='amount red']/div",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//a[@class='edit-combo']",
+    "DESKTOP": "xpath=//a[@class='edit-combo']"
+  },
+  "lblGiftWrapSuccess": {
+    "NATIVE_ANDROID": "xpath=//*[@class='title' and text()='Your order will arrive gift wrapped']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "btnMyntApplyCode": {
+    "NATIVE_ANDROID": "xpath=//div[text()='Apply Code']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "txaMyntAvailable": {
+    "NATIVE_ANDROID": "class=mgf-title",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "txtMyntDiscount": {
+    "NATIVE_ANDROID": "xpath=//input[@class='mfg-input-box']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "btnMyntApply": {
+    "NATIVE_ANDROID": "class=apply-button",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "bckIcon": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "xpath=//XCUIElementTypeNavigationBar[@name='Featured']/XCUIElementTypeButton[1]",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "class=apply-button"
+  },
+  "txaErrorMessageForInvalidCoupon": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "txaCouponsNotApplicableHeader": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "lstCouponsNotApplicable": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "lstCouponNotApplicableAndDisabled": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "txtCouponAppliedSuccessfully": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  " icoWishlist": {
+    "NATIVE_ANDROID": "xpath = //*[@content-desc='rightElement1']",
+    "NATIVE_IOS": "xpath =//XCUIElementTypeNavigationBar[@name='Featured']/XCUIElementTypeButton[3]",
+    "MOBILE_WEB": "id=header-wishlist-icon",
+    "DESKTOP": "locator=value"
+  },
+  " tlbback": {
+    "NATIVE_ANDROID": "locator = value",
+    "NATIVE_IOS": "xpath =//XCUIElementTypeNavigationBar[@name='Featured']/XCUIElementTypeButton[1]",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  " lblBagTotal": {
+    "NATIVE_ANDROID": "locator = value",
+    "NATIVE_IOS": "locator = value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  " lblEstimatedTax": {
+    "NATIVE_ANDROID": "locator = value",
+    "NATIVE_IOS": "locator = value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  " lblCouponDiscount": {
+    "NATIVE_ANDROID": "locator = value",
+    "NATIVE_IOS": "locator = value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  " lblBagDiscount": {
+    "NATIVE_ANDROID": "locator = value",
+    "NATIVE_IOS": "locator = value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  " lblDelivery": {
+    "NATIVE_ANDROID": "locator = value",
+    "NATIVE_IOS": "locator = value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  " lblOrderTotal": {
+    "NATIVE_ANDROID": "locator = value",
+    "NATIVE_IOS": "locator = value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  " txaCouponNotLiveMessage": {
+    "NATIVE_ANDROID": "locator = value",
+    "NATIVE_IOS": "locator = value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "icoHome": {
+  "NATIVE_ANDROID": "locator=value",
+  "NATIVE_IOS": "accessibility_id=Home",
+  "MOBILE_WEB": "locator=value",
+  "DESKTOP": "locator=value"
+  },
+  "comboDiscountAmt": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "lnkAddItems": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "lblDiscountMsg": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "lblDiscountOfferMsg": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "txaFreeGiftAddedMsg": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  }
+}
+

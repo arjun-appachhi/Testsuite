@@ -1,0 +1,8 @@
+{
+  "txaHelpCenter": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@text='HELP CENTER']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//div[text()='HELP CENTER']",
+    "DESKTOP": "xpath=//div[text()='HELP CENTER']"
+  }
+}

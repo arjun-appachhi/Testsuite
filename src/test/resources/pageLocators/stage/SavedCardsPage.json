@@ -1,0 +1,98 @@
+{
+  "txaNoSavedCardMessage": {
+    "NATIVE_ANDROID": "xpath=//span[text()='You have no saved cards']']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//div[@class='noSavedCards-primaryMessage']",
+    "DESKTOP": "xpath=//div[@class='noSavedCards-primaryMessage']"
+  },
+  "btnAddCardForNoSavedCard": {
+    "NATIVE_ANDROID": "locator=value']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//div[@class='noSavedCards-addButton']",
+    "DESKTOP": "xpath=//div[@class='noSavedCards-addButton']"
+  },
+  "txtCardNumber": {
+    "NATIVE_ANDROID": "locator=value']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//input[@name='cardnumber']",
+    "DESKTOP": "xpath=//input[@name='cardnumber']"
+  },
+  "txtCardName": {
+    "NATIVE_ANDROID": "locator=value']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//input[@name='cardname']",
+    "DESKTOP": "xpath=//input[@name='cardname']"
+  },
+  "ddlExpiryMonth": {
+    "NATIVE_ANDROID": "locator=value']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//input[@name='month']",
+    "DESKTOP": "xpath=//input[@name='month']"
+  },
+  "ddlExpiryYear": {
+    "NATIVE_ANDROID": "locator=value']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//input[@name='year']",
+    "DESKTOP": "xpath=//input[@name='year']"
+  },
+  "btnSave": {
+    "NATIVE_ANDROID": "locator=value']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//div[@class='savedCardsForm-stickySubmitButton']",
+    "DESKTOP": "xpath=//div[@class='savedCardsForm-submitButton']"
+  },
+  "btnAddCardIfSavedCardsAvailable": {
+    "NATIVE_ANDROID": "locator=value']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//div[@class='addSavedCard-addButton']",
+    "DESKTOP": "xpath=//div[@class='addSavedCard-addButton']"
+  },
+  "lstMonth": {
+    "NATIVE_ANDROID": "locator=value']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//li[@class='dropdown-inputRow']",
+    "DESKTOP": "xpath=//li[@class='dropdown-inputRow']"
+  },
+  "lstYear": {
+    "NATIVE_ANDROID": "locator=value']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//li[@class='dropdown-inputRow']",
+    "DESKTOP": "xpath=//li[@class='dropdown-inputRow']"
+  },
+  "btnRemove": {
+    "NATIVE_ANDROID": "locator=value']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//div[text()=' Remove ']",
+    "DESKTOP": "xpath=//div[@class='card-removeButton']"
+  },
+  "btnEdit": {
+    "NATIVE_ANDROID": "locator=value']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//div[@class='card-editButton']",
+    "DESKTOP": "xpath=//div[@class='card-editButton']"
+  },
+  "btnDelete": {
+    "NATIVE_ANDROID": "locator=value']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//div[text()='Delete']",
+    "DESKTOP": "xpath=//div[@class='dialog-button dialog-button1']"
+  },
+  "txaDropDownTitle": {
+    "NATIVE_ANDROID": "locator=value']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//div[@class='dropdown-dropDownTitle']",
+    "DESKTOP": "xpath=//div[@class='dropdown-dropDownTitle']"
+  },
+  "txaSavedCardNumbers": {
+    "NATIVE_ANDROID": "locator=value']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//div[@class='card-maskedNumber']",
+    "DESKTOP": "xpath=//div[@class='card-maskedNumber']"
+  },
+  "txaCardValidity": {
+    "NATIVE_ANDROID": "locator=value']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//div[@class='card-validity']",
+    "DESKTOP": "xpath=//div[@class='card-validity']"
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "txaFirstName": {
+    "NATIVE_ANDROID": "xpath=//*[@content-desc='FULL NAME']/*/android.widget.EditText",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//input[@name='firstname']",
+    "DESKTOP": "name=firstname"
+  },
+  "txaLastName": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//input[@name='lastname']",
+    "DESKTOP": "name=lastname"
+  },
+  "drpDobDate": {
+    "NATIVE_ANDROID": "xpath=//android.widget.NumberPicker[@index='1']/android.widget.Button[@index='0']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "name=dayCode",
+    "DESKTOP": "name=dayCode"
+  },
+  "drpDobMonth": {
+    "NATIVE_ANDROID": "xpath=//android.widget.NumberPicker[@index='0']/android.widget.Button[@index='0']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath= //*[@name='monthCode']",
+    "DESKTOP": "xpath = //*[@name='monthCode']"
+  },
+  "drpDobYear": {
+    "NATIVE_ANDROID": "xpath=//android.widget.NumberPicker[@index='2']/android.widget.Button[@index='0']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "name=yearCode",
+    "DESKTOP": "name=yearCode"
+  },
+  "txaMobileNumber": {
+    "NATIVE_ANDROID": "xpath=//*[@content-desc='MOBILE NUMBER']/*/android.widget.EditText",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//input[@type='tel']",
+    "DESKTOP": "xpath=//input[@type='tel']"
+  },
+  "txaYourBio": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//textarea[@name='bio']",
+    "DESKTOP": "name=bio"
+  },
+  "txaLocation": {
+    "NATIVE_ANDROID": "xpath=//*[@content-desc='LOCATION']/*/android.widget.TextView",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//input[@name='location']",
+    "DESKTOP": "xpath=//input[@name='location']"
+  },
+  "rdoGenderFemale": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "name=gender",
+    "DESKTOP": "name=gender"
+  },
+  "btnSave": {
+    "NATIVE_ANDROID": "xpath=//android.view.ViewGroup[@content-desc='SAVE DETAILS']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//button[text()='SAVE']",
+    "DESKTOP": "id=save"
+  },
+  "lnkChangePassword": {
+    "NATIVE_ANDROID": "accessibility_id=CHANGE PASSWORD",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "class=change-password-text",
+    "DESKTOP": "class=change-password-text"
+  },
+  "txaCurrentPassword": {
+    "NATIVE_ANDROID": "name=current_pwd",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "name=current_pwd",
+    "DESKTOP": "name=current_pwd"
+  },
+  "txaNewPassword": {
+    "NATIVE_ANDROID": "id=rp-password",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "id=rp-password",
+    "DESKTOP": "name=password"
+  },
+  "txaConfirmPassword": {
+    "NATIVE_ANDROID": "name=confirm_pwd",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "name=confirm_pwd",
+    "DESKTOP": "name=confirm_pwd"
+  },
+  "btnChangePassword": {
+    "NATIVE_ANDROID": "id=change-submit",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "id=change-submit",
+    "DESKTOP": "id=change-submit"
+  },
+  "btnEdit": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//*[contains(@class,'edit2')]",
+    "DESKTOP": "xpath=//*[contains(@class,'edit2')]"
+  },
+  "btnCancel": {
+    "NATIVE_ANDROID": "accessibility_id=leftElement",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//*[@class='cancel']",
+    "DESKTOP": "xpath=//*[@class='cancel']"
+  },
+  "msgPasswordchange": {
+    "NATIVE_ANDROID": "xpath=//*[@class='result-wrapper success']/h2",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//div[@class='password-info']",
+    "DESKTOP": "xpath=//div[@class='password-info']"
+  },
+  "btnGender": {
+    "NATIVE_ANDROID": "xpath=//android.view.ViewGroup[@content-desc='GENDER']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "name=gender",
+    "DESKTOP": "name=gender"
+  },
+  "selectGenderMale": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@text='Male']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "name=gender",
+    "DESKTOP": "name=gender"
+  },
+  "selectGenderFemale": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@text='Female']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "name=gender",
+    "DESKTOP": "name=gender"
+  },
+  "lblEditProfile": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@text='Profile Details']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//*[text()='Edit Profile']",
+    "DESKTOP": "xpath=//*[@class='desktop-accActions']/a"
+  },
+  "lblBirthday": {
+    "NATIVE_ANDROID": "xpath=//*[@content-desc='BIRTHDAY']/*/android.widget.TextView",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "saveBirthday": {
+    "NATIVE_ANDROID": "xpath=//android.widget.Button[@resource-id='com.myntra.android:id/btn_date_picker_save']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "selectLocation": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@text='Bangalore, Karnataka']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  }
+}

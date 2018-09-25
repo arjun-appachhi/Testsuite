@@ -1,0 +1,74 @@
+{
+    "type": "layout",
+    "props": {
+        "title": "Shop Fashion"
+    },
+    "children": [
+                 {
+                 "type": "carousel",
+                 "props": null,
+                 "children": [
+                              {
+                              "type": "banner",
+                              "props": {
+                              "src": "http://myntra.myntassets.com/images/banners/may2014/1399985435-mobile-banner_men_2_1.jpg",
+                              "url": "/united-colors-of-benetton-men",
+                              "title": "UNITED COLORS OF BENETTON",
+                              "description": "NEW ARRIVALS"
+                              }
+                              },
+                              {
+                              "type": "banner",
+                              "props": {
+                              "src": "http://myntra.myntassets.com/images/banners/may2014/1399991772-mobile-banner_women_2_1.jpg",
+                              "url": "/only",
+                              "title": "SUMMER DRESSING",
+                              "description": "FROM ONLY"
+                              }
+                              },
+                              {
+                              "type": "banner",
+                              "props": {
+                              "src": "http://myntra.myntassets.com/images/banners/may2014/1399985212-mobile-banner_men_1_1.jpg",
+                              "url": "/allsoccer",
+                              "title": "THE FOOTBALL STORE",
+                              "description": "EXPERIENCE NOW"
+                              }
+                              },
+                              {
+                              "type": "banner",
+                              "props": {
+                              "src": "http://myntra.myntassets.com/images/banners/may2014/1399991586-mobile-banner_women_1_1.jpg",
+                              "url": "/united-colors-of-benetton-women",
+                              "title": "UNITED COLORS OF BENETTON",
+                              "description": "NEW ARRIVALS"
+                              }
+                              }
+                              ]
+                 },
+                 {
+                 "type": "banner",
+                 "props": {
+                 "title": "Shop Men's",
+                 "url": "/shop/men",
+                 "src": "http://myntra.myntassets.com/myx/images/men01.663d10ac50a05cfa13d0d1c18318a9cdb91d990a.png"
+                 }
+                 },
+                 {
+                 "type": "banner",
+                 "props": {
+                 "title": "Shop Women's",
+                 "url": "/shop/women",
+                 "src": "http://myntra.myntassets.com/myx/images/women01.6b580fbffcc9a8f0ea4b6c45309a3c9cab10c08e.png"
+                 }
+                 },
+                 {
+                 "type": "overlay",
+                 "props": {
+                 "url": "/new-arrivals",
+                 "below": "http://myntra.myntassets.com/myx/images/blur_whats-new.51c0ce12f59ecb1a69454477794ab703646802c1.png",
+                 "above": "http://myntra.myntassets.com/myx/images/whats-new_overlay.37c46900ebf58ef97b2070b810b62b223986b22e.png"
+                 }
+                 }
+                 ]
+}

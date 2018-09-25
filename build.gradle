@@ -1,0 +1,123 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'maven'
+apply plugin: 'io.qameta.allure'
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath "io.qameta.allure:allure-gradle:2.5"
+    }
+}
+
+repositories {
+    mavenCentral()
+    maven { url "http://garepos.myntra.com:8080/nexus/content/repositories/myntra-snapshots" }
+    maven { url "http://garepos.myntra.com:8080/nexus/content/repositories/myntra-releases" }
+}
+
+dependencies {
+    compile 'org.slf4j:slf4j-nop:1.7.25'
+    compile "com.myntra.myntra-core-test-framework:myntra-core-automation-frmwk:${framework_version}"
+    compile "com.stub.testhelper:myntra-testdata-helper:2.0.9-SNAPSHOT"
+    compile "org.ini4j:ini4j:0.5.1"
+    compile "com.fasterxml.jackson.core:jackson-core:2.9.6"
+    compile "cglib:cglib:3.2.7"
+}
+
+allure {
+    version = "${allure_version}"
+
+    autoconfigure = true
+    aspectjweaver = true
+    clean = true
+
+    resultsDir = file("${buildDir}/test-results/allure-results")
+    reportDir = file("${buildDir}/test-results/allure-reports")
+
+    useTestNG {
+        version = "${allure_java_version}"
+    }
+
+    downloadLink = "https://dl.bintray.com/qameta/generic/io/qameta/allure/allure/${allure_version}/allure-${allure_version}.zip"
+}
+
+task openAllureReport(type: Exec) {
+
+    commandLine ".allure/allure-${allure_version}/bin/allure", "open", "${buildDir}/test-results/allure-reports"
+
+    doFirst {
+        downloadAllure.execute()
+        if (file('.allure').exists()) {
+        	file('.allure/allure-${allure_version}/bin/allure').setExecutable(true)
+        } else {
+            throw new RuntimeException('downloadAllure task did not execute successfully');
+        }
+    }
+}
+
+clean.doFirst {
+    if( System.getProperty('appachhi.enabled') == null || "false".equals(System.getProperty('appachhi.enabled').trim().toLowerCase())) {
+        System.out.println "Delete build / logs / out / test-output / allure-results directories, IF they exist"
+        delete "${rootDir}/build"
+        delete "${rootDir}/logs"
+        delete "${rootDir}/out"
+        delete "${rootDir}/test-output"
+        delete "${rootDir}/allure-results"
+        if( ! (System.getProperty('appachhi.enabled') != null &&  'true'.equals(System.getProperty('appachhi.enabled').toLowerCase())) ) {
+            exec {
+                commandLine 'sh', './cleanStaleAppium.sh'
+            }
+        }
+    }
+}
+
+clean.doLast {
+    System.out.println "Create logs directory"
+    mkdir "${rootDir}/logs"
+}
+
+test {
+    doFirst {
+        System.out.println("Set useDynamicLogger=true")
+        environment "useDynamicLogger", "true"
+    }
+
+    useTestNG {
+        suites "${System.getProperty('suiteXmlFile', 'src/test/resources/test-suites/testng.xml')}"
+
+        System.out.println "Including tests in group - ${System.getProperty('groups', '.*')}"
+        includeGroups "${System.getProperty('groups', '.*')}"
+
+        System.out.println "Excluding tests in group - wip-${System.getProperty('channel', 'desktop')}"
+        def channel = "${System.getProperty('channel', 'desktop')}"
+        excludeGroups "wip-${channel}", "na-${channel}", "na-data"
+
+        outputDirectory = file("test-output")
+    }
+
+    afterTest { desc, result ->
+        println "Executing test ${desc.name} [${desc.className}] with result: ${result.resultType}"
+    }
+
+    testLogging {
+        events "passed", "skipped", "failed"
+    }
+
+    // show standard out and standard error of the test JVM(s) on the console
+    testLogging.showStandardStreams = true
+
+    //add system property here
+    systemProperties System.properties
+
+    finalizedBy 'allureReport'
+}
+
+
+task wrapper(type: Wrapper) {
+    gradleVersion = "4.8"
+}
+

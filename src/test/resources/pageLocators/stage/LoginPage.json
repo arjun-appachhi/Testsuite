@@ -1,0 +1,177 @@
+{
+  "crsLaunchIcon": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "btnOBSLogin": {
+    "NATIVE_ANDROID": "id=com.myntra.android:id/btn_login",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "lnkLogIn": {
+    "NATIVE_ANDROID": "xpath=.//android.widget.TextView[@text='LOG IN']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "css=a[href='/login']",
+    "DESKTOP": "xpath=//a[@class='desktop-linkButton'][2]"
+  },
+  "mnuHamburger": {
+    "NATIVE_ANDROID": "xpath=//*[@content-desc='leftElement']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//span[@class='icon icon-menu']",
+    "DESKTOP": "locator=value"
+  },
+  "lnkSignUp": {
+    "NATIVE_ANDROID": "xpath=//*[@resource-id='com.myntra.android:id/btn_signup'or @resource-id='com.myntra.android:id/btn_register']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//a[text()='Create Account']",
+    "DESKTOP": "xpath=//*[@class='login-right-links']/a"
+  },
+  "txtEmailId": {
+    "NATIVE_ANDROID": "id=com.myntra.android:id/et_email_address",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//input[ @type='text' and @class='form-control']",
+    "DESKTOP": "xpath=//input[@placeholder='Your Email Address']"
+  },
+  "txtPassword": {
+    "NATIVE_ANDROID": "id=com.myntra.android:id/et_loginregister_password",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//input[ @type='password' and @class='form-control has-feedback']",
+    "DESKTOP": "xpath=//input[@class='login-user-input-password login-user-input']"
+  },
+  "btnLogin": {
+    "NATIVE_ANDROID": "id=com.myntra.android:id/btn_loginregister_continue_signin",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//button[@class='btn primary  lg block ']",
+    "DESKTOP": "xpath=//button[@class='login-login-button']"
+  },
+  "btnFacebook": {
+    "NATIVE_ANDROID": "xpath=//android.widget.LinearLayout[@resource-id='com.myntra.android:id/btn_login_facebook_dummy']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "txtFbEmail": {
+    "NATIVE_ANDROID": "xpath=//android.widget.EditText[@content-desc='Email address or phone number' or @text='Email address or phone number' or @resource-id='m_login_email' ]",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "txtFbPassword": {
+    "NATIVE_ANDROID": "xpath=//android.widget.EditText[@text='Facebook password' or @resource-id='m_login_password']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "btnFbLogin": {
+    "NATIVE_ANDROID": "xpath=//android.widget.Button[@content-desc='Log In ' or @text='Log In ']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "btnConfirmFb": {
+    "NATIVE_ANDROID": "xpath=//android.widget.Button[@text='Continue' or @resource-id='u_0_3' or @content-desc='Continue']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "txtSignUpEmail": {
+    "NATIVE_ANDROID": "xpath=//android.widget.EditText[@resource-id='com.myntra.android:id/et_email_address']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//input[@type='text' and @class='form-control' and @placeholder='Your Email Address']",
+    "DESKTOP": "name=email"
+  },
+  "txtSignUpPassword": {
+    "NATIVE_ANDROID": "xpath=//android.widget.EditText[@resource-id='com.myntra.android:id/et_loginregister_regpassword']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//input[@type='password' and @class='form-control has-feedback' and @placeholder='Choose Password']",
+    "DESKTOP": "name=password"
+  },
+  "txtSignUpFname": {
+    "NATIVE_ANDROID": "xpath=//android.widget.EditText[@resource-id='com.myntra.android:id/et_loginregister_name']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//input[@type='text' and @class='form-control' and @placeholder='Full Name']",
+    "DESKTOP": "locator=value"
+  },
+  "txtSignUpMobile": {
+    "NATIVE_ANDROID": "xpath=//android.widget.EditText[@resource-id='com.myntra.android:id/et_loginregister_phonenumber']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//input[@type='number' and @class='form-control' and @placeholder='Mobile (For Order Updates)']",
+    "DESKTOP": "name=mobile"
+  },
+  "btnGenderM": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@resource-id='com.myntra.android:id/btn_male']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//button[contains (text(),'Man') and @class='btn default  lg  ']",
+    "DESKTOP": "id=female"
+  },
+  "btnCreateAccount": {
+    "NATIVE_ANDROID": "xpath=//android.widget.Button[@resource-id='com.myntra.android:id/btn_loginregister_register']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//button[text()='CREATE ACCOUNT']",
+    "DESKTOP": "class=register-register-button"
+  },
+  "btnLogOut": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@text=' LOG OUT ']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//button[text()='Logout']",
+    "DESKTOP": "locator=value"
+  },
+  "rdoPermitOverDraw": {
+    "NATIVE_ANDROID": "xpath=//android.widget.Switch[@text='OFF' or @index='0']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "btnPermissionLater": {
+    "NATIVE_ANDROID": "id=com.myntra.android:id/tv_permissions_skip",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "btnGivePermission": {
+    "NATIVE_ANDROID": "xpath=//android.widget.Button[@resource-id='com.myntra.android:id/btn_permission_ask']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "btnPermissionAllow": {
+    "NATIVE_ANDROID": "xpath=//android.widget.Button[@resource-id='com.android.packageinstaller:id/permission_allow_button']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "icoUser": {
+    "NATIVE_ANDROID": "xpath=//*[@content-desc='leftElement']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//span[@class='icon icon-menu']",
+    "DESKTOP": "xpath=//div[@class='desktop-userIconsContainer']"
+  },
+  "icoProfile": {
+    "NATIVE_ANDROID": "xpath=//*[@content-desc='leftElement']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//span[@class='icon icon-menu']",
+    "DESKTOP": "xpath=//a[text()='login']"
+  },
+  "lnkLogOut": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "xpath=//div[text()=' Logout ']"
+  },
+  "lblEMAILADDRESS": {
+    "NATIVE_ANDROID": "xpath=//android.widget.LinearLayout[@resource-id='com.myntra.android:id/btn_email_address']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//span[@class='icon icon-menu']",
+    "DESKTOP": "xpath=//a[text()='login']"
+  },
+  "mnuAccount": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@text = 'Account']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//*[@class='naviLevel' and text()='My Account']",
+    "DESKTOP": "locator=value"
+  }
+  
+}

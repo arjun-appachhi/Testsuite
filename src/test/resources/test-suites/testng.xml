@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Myntra Test Suite" verbose="5" configfailurepolicy="continue">
+
+    <listeners>
+        <listener
+                class-name="com.myntra.utils.listeners.WebDriverListener"/>
+        <listener
+                class-name="com.myntra.utils.listeners.ReportListener"/>
+        <listener
+                class-name="com.myntra.utils.listeners.RetryListener"/>
+        <listener
+                class-name="com.myntra.utils.listeners.TestExecutionListener"/>
+        <listener
+                class-name="org.testng.reporters.EmailableReporter2"/>
+    </listeners>
+
+
+    <test name="Test Scenario" parallel="methods">
+        <packages>
+            <package name="com.myntra.scenarios"/>
+        </packages>
+    </test>
+
+</suite>

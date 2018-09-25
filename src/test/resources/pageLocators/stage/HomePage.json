@@ -1,0 +1,158 @@
+{
+  "txtSearchField": {
+    "NATIVE_ANDROID": "xpath=//android.widget.EditText[@content-desc='search_default_search_text_input']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//div[@class='search-wrap']//input[@class='form-control search-box-input']",
+    "DESKTOP": "xpath=//input[@class='desktop-searchBar']"
+  },
+  "btnSearch": {
+    "NATIVE_ANDROID": "xpath=//android.widget.ImageView[@content-desc='rightElement0']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//span[@class='icon icon-search']",
+    "DESKTOP": "xpath=//span[@class='myntraweb-sprite desktop-iconSearch sprites-search']"
+  },
+  "btnWishlist": {
+    "NATIVE_ANDROID": "xpath=//android.widget.ImageView[@content-desc='rightElement2']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//a[@href='/wishlist' and @id='header-wishlist-icon']\n\n",
+    "DESKTOP": "locator=value"
+  },
+  "btnCart": {
+    "NATIVE_ANDROID": "xpath=//android.widget.ImageView[@content-desc='rightElement3']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//span[@class='icon icon-bag']",
+    "DESKTOP": "xpath=//a[@class='desktop-cart']"
+  },
+  "ddlSearchAutoSuggest": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//span[@class='icon icon-bag']",
+    "DESKTOP": "locator=value"
+  },
+  "imgMyntraLogo": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@text='Myntra']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "class=logo-inline",
+    "DESKTOP": "locator=value"
+  },
+  "icoHome": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "icoProfile": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//span[text()='Profile']",
+    "DESKTOP": "class=desktop-infoEmail"
+  },
+  "icoCategories": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "icoNotification": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//span[@class='icon icon-bag']",
+    "DESKTOP": "locator=value"
+  },
+  "mnuHamburger": {
+    "NATIVE_ANDROID": "xpath=//*[@content-desc='leftElement']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//span[@class='icon icon-menu']",
+    "DESKTOP": "locator=value"
+  },
+  "btnLogin": {
+    "NATIVE_ANDROID": "xpath=//android.widget.Button[@index='0']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//button[@class='btn primary  lg block ']",
+    "DESKTOP": "xpath=//button[@class='login-login-button']"
+  },
+  "icoUser": {
+    "NATIVE_ANDROID": "xpath=//*[@content-desc='leftElement']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//span[@class='icon icon-menu']",
+    "DESKTOP": "xpath=//div[@class='desktop-userIconsContainer']"
+  },
+  "mnuAccount": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@text = 'Account']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//*[@class='naviLevel' and text()='My Account']",
+    "DESKTOP": "locator=value"
+  },
+  "lnkSavedAddress": {
+    "NATIVE_ANDROID": "xpath=//*[@content-desc='leftElement']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//span[text()='Addresses']",
+    "DESKTOP": "xpath=//div[text()='Saved Addresses']"
+  },
+  "mnuOrders": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "lnkContactUs": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@text='CONTACT US']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//a[text()='CONTACT US']",
+    "DESKTOP": "xpath=//div[@class='desktop-preHeaderContent desktop-showBanner']/a[@href='/contactus']"
+  },
+  "lstCategoryLink": {
+    "NATIVE_ANDROID": "xpath=//android.widget.ScrollView[@index='2']/*/android.widget.TextView",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=(//div[@class='naviWrapper'])[4]/div/a",
+    "DESKTOP": "xpath=//a[@class='desktop-categoryLink']"
+  },
+  "lnkMen": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@text='Men']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//span[text()='Men']",
+    "DESKTOP": "xpath=//a[text()='Men']"
+  },
+  "imgBanner": {
+    "NATIVE_ANDROID": "xpath=(//android.widget.ImageView)[1]",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "xpath=//img[@class='image-image undefined image-hand']"
+  },
+  "lnkSavedCards": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//a[@href='/my/savedcards']",
+    "DESKTOP": "xpath=//a[@href='/my/savedcards']"
+  },
+  "lnkShopNow": {
+    "NATIVE_ANDROID": "id=com.myntra.android:id/tv_skip",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "lnkLogOut": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@text=' LOG OUT ']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//button[text()='Logout']",
+    "DESKTOP": "xpath=//div[text()=' Logout ']"
+  },
+  "lnkLogIn": {
+    "NATIVE_ANDROID": "xpath=.//android.widget.TextView[@text='LOG IN']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "css=a[href='/login']",
+    "DESKTOP": "xpath=//a[@class='desktop-linkButton'][2]"
+  },
+  "lnkTopwear": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@text='Topwear']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//span[text()='Topwear']",
+    "DESKTOP": "locator=value"
+  },
+  "btnAccount": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@text='Account']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  }
+}

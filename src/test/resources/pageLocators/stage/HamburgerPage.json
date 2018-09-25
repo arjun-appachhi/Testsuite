@@ -1,0 +1,68 @@
+{
+  "lnkSignIn": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[starts-with(@text,'Log In')]",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//*[@class='naviWrapper']/a[contains(text(),'Sign in')]",
+    "DESKTOP": "locator=value"
+  },
+  "mnuMenCategory": {
+    "NATIVE_ANDROID": "locator=value",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "mnuAccount": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@text = 'Account']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//*[@class='naviLevel' and text()='My Account']",
+    "DESKTOP": "locator=value"
+  },
+  "mnuAddress": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@text = 'Address']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//span[text()='Addresses']",
+    "DESKTOP": "locator=value"
+  },
+  "btnLogOut": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@text=' LOG OUT ']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//button[text()='Logout']",
+    "DESKTOP": "locator=value"
+  },
+  "mnuHamburger": {
+    "NATIVE_ANDROID": "accessibility_id=leftElement",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//span[@class='icon icon-menu']",
+    "DESKTOP": "locator=value"
+  },
+  "mnuMyOrders": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@text='Orders']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//*[text()='My Orders']",
+    "DESKTOP": "locator=value"
+  },
+  "lblUserName": {
+    "NATIVE_ANDROID": "xpath=//android.widget.ScrollView/*[@index='0']/android.widget.TextView",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  },
+  "lblEditProfile": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@text='Profile Details']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//a[text()='Edit Profile']",
+    "DESKTOP": "xpath=//*[@class='desktop-accActions']/a"
+  },
+  "lnkSavedCards": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@text = 'Saved cards']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "xpath=//a[@href='/my/savedcards']",
+    "DESKTOP": "xpath=//*[@class='desktop-accActions']/a"
+  },
+  "btnAccount": {
+    "NATIVE_ANDROID": "xpath=//android.widget.TextView[@text='Account']",
+    "NATIVE_IOS": "locator=value",
+    "MOBILE_WEB": "locator=value",
+    "DESKTOP": "locator=value"
+  }
+}
