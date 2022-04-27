@@ -2,7 +2,7 @@
 
 ### Running tests on Android Phones
 
-### Adding some thing
+### Adding some things here for testing
 
 #### Setting up Android Debug Bridge (ADB) tools
 
