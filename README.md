@@ -2,7 +2,7 @@
 
 ### Running tests on Android Phones
 
-### Adding some things here for testing Github Webhook
+### Adding some things here for testing Github Webhook Integration
 
 #### Setting up Android Debug Bridge (ADB) tools
 
